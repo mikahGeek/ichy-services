@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/osboxes/source/repos/ichy-services/test/TestRequests/TestRequests.csproj": {}
+  },
+  "projects": {
+    "/home/osboxes/source/repos/ichy-services/src/Requests/Requests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/osboxes/source/repos/ichy-services/src/Requests/Requests.csproj",
+        "projectName": "Requests",
+        "projectPath": "/home/osboxes/source/repos/ichy-services/src/Requests/Requests.csproj",
+        "packagesPath": "/home/osboxes/.nuget/packages/",
+        "outputPath": "/home/osboxes/source/repos/ichy-services/src/Requests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/osboxes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/96/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/osboxes/source/repos/ichy-services/test/TestRequests/TestRequests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/osboxes/source/repos/ichy-services/test/TestRequests/TestRequests.csproj",
+        "projectName": "TestRequests",
+        "projectPath": "/home/osboxes/source/repos/ichy-services/test/TestRequests/TestRequests.csproj",
+        "packagesPath": "/home/osboxes/.nuget/packages/",
+        "outputPath": "/home/osboxes/source/repos/ichy-services/test/TestRequests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/osboxes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/osboxes/source/repos/ichy-services/src/Requests/Requests.csproj": {
+                "projectPath": "/home/osboxes/source/repos/ichy-services/src/Requests/Requests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/96/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
